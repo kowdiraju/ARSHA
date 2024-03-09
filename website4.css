@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    width: 100%;
+    height: 53px;
+    background-color: antiquewhite;
+}
+.menu .image{
+    float: left;
+  
+}
+.menu img{
+    margin-left: 50px;
+
+   
+}
+.menu img:hover{
+    background-color: silver;
+}
+
+
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    margin-left: 50px;
+    list-style: none;
+    margin-top:15px ;
+    margin-bottom: 15px;
+    padding: 3px 10px;
+    cursor: pointer;
+
+}
+.menu ul li:hover{
+    background-color: silver;
+}
+.menu input{
+    margin-left: 500px;
+    padding-left: 20px;
+    font-size: 1rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: rgb(242, 240, 240);
+    border-style: none;
+}
+.card{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: centers;
+   
+}
+
+.card .card1{
+    width: 300px;
+    height: 400px;
+    background-color: azure;
+    margin-right: 20px;
+    
+}
+
+.card .card1 p{
+    text-align: center;
+}
+.card1{
+    position: relative;
+}
+.alternateimg{
+    position: absolute;
+    left: 50%;
+    bottom: 27%;
+    transform: translate(-50%, -32%);
+}
+.alternateimg {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.card li{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    background-color: silver;
+    
+    
+}
+.card li:hover{
+    background-color: antiquewhite;
+}
+.card .card2{
+    width: 300px;
+    height: 400px;
+    background-color: azure;
+    margin-right: 20px;
+}
+.card .card2 p{
+    text-align: center;
+}
+.card .card3{
+    width: 300px;
+    height: 400px;
+    background-color: azure;
+}
+.card .card3 p{
+    text-align: center;
+}
+.card2{
+    position: relative
+}
+.card3{
+    position: relative
+}

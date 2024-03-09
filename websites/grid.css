@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 2fr 1.5fr 1.2fr;
+    grid-template-areas: "navbar navbar navbar navbar" 
+                         "sidebar main main main"
+                         "sidebar Box1 Box2 Box3"
+                         "sidebar footer footer footer";
+    grid-gap: 0.2rem;                     
+    
+
+                        
+}
+nav{
+    background-color: aqua;
+    grid-area: navbar;
+}
+.sidebar{
+    background-color: aquamarine;
+    grid-area: sidebar;
+}
+.main{
+background-color: blue;
+grid-area: main;
+}
+.Box1{
+    background-color: blueviolet;
+    grid-area: Box1;
+}
+.Box2{
+    background-color: brown;
+    grid-area: Box2;
+}
+.Box3{
+    background-color: burlywood;
+    grid-area: Box3;
+}
+footer{
+    background-color: chartreuse;
+    grid-area: footer;
+}
+
+@media only screen and (max-width:640px;){
+    
+}

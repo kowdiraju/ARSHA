@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+    background-color: black;
+}
+.container1 button{
+    margin: 10px; 
+
+    padding: 5px;
+    color: white;
+    background-color: black;
+    font-size: large;
+}
+.container1 button:hover{
+    background-color: silver ;
+}    
+
+.container1 .icon{
+    margin-left: 70%;
+}
+.container2{
+    position: relative;
+    color: white;
+    
+}
+.container2 .centered{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.container2 .text{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.container3{
+    
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+    
+}
+.container3 h2{
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 20px;
+    font-weight: 400;
+}
+.container3 h4{
+    font-style: italic;
+    margin: 20px;
+    font-weight: 200;
+}
+.container3 p{
+    text-align: start;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.container3 .card{
+    margin-top: 30px;
+
+   
+}
+
+.container3 .card p{
+  
+    text-align: center;
+}
+
+.container4{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+.container4 .card {
+    display: flex;
+    
+}
+.container4 .card .firstcard{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    margin: 10px;
+    color: black;
+}
+.container4 .card .firstcard img{
+    width: 200px;
+    height: 300px;
+
+}
+.container4 .card .secondcard{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    margin: 10px;
+    color: black;
+}
+.container4 .card .secondcard img{
+    width: 200px;
+    height: 300px;
+
+}
+.container4 .card .thirdcard{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    margin: 10px;
+    color: black;
+}
+.container4 .card .thirdcard img{
+    width: 200px;
+    height: 300px;
+
+}

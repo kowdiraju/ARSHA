@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    padding: 20px;
+    background-color: black;
+    position: fixed;
+   
+    
+}
+.container1 a{
+    color: white;
+    margin: 0 10px;
+    padding: 10px 195px ;
+    text-decoration: none;
+    
+
+}
+.container1 a:hover{
+    background-color: silver;
+}
+.container2{
+    margin: 20px 150px;
+    
+    
+}
+.container2 .left-card{
+    float: left;
+}
+.card1{
+    width: 900px ;
+    height: 900px;
+    padding: 30px;
+    background-color: aliceblue;
+    box-shadow: 10px 25px 30px rgba(30, 30, 31, 0.3);
+
+}
+.card1 h2,h6{
+    text-align: center;
+}
+
+.card1 p{
+    padding: 20px 0;
+}
+.card1 button{
+    padding: 5px 15px;
+}
+
+.card1 .submit{
+    margin-left: 650px;
+}
+
+.card2{
+    width: 900px ;
+    height: 900px;
+    padding: 30px;
+    background-color: aliceblue;
+   
+
+}
+.card2 h2,h6{
+    text-align: center;
+}
+
+.card2 p{
+    padding: 20px 0;
+}
+.card2 button{
+    padding: 5px 15px;
+}
+
+.card2 .submit{
+    margin-left: 650px;
+}
+
+.card3{
+    width: 900px ;
+    height: 900px;
+    padding: 30px;
+    background-color: aliceblue;
+    margin-bottom: 50px;
+   
+
+}
+.card3 h2,h6{
+    text-align: center;
+}
+
+.card3 p{
+    padding: 20px 0;
+}
+.card3 button{
+    padding: 5px 15px;
+}
+
+.card3 .submit{
+    margin-left: 650px;
+}
+
+.container2 .right-card{
+    float: right;
+}
+.card4{
+    background-color: black;
+    width: 400px;
+    height: 350px;
+    color: white;
+    margin-right: 250px;
+    
+}
+.card5{
+    
+    width: 400px;
+    height: 350px;
+    margin-right: 250px;
+    
+}
+.card5 h2{
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.card5 ul{
+    list-style: none;
+    
+}
+.card5 ul li{
+    border-bottom: 1px solid black;
+}
+
+.card5 ul li:hover{
+    background-color: silver;
+    
+}
+.card6{
+    margin-top: 150px;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: wheat;
+    width: 400px;
+    height: 300px;
+    background-color: black;
+
+}
+.card6 h2{
+    background-color: black;
+    color: white;
+}
+.card6 p span1{
+    background-color: #a18b0b ;
+    float: left;
+}
+.card6 p span{
+    background-color: #084a8d;
+    float: left;
+    word-spacing: 2px;
+    
+}
+
+.footer{
+    display: block;
+    float: left;
+    margin: 200px;
+}

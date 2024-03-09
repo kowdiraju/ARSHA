@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wave {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: dodgerblue;   
+}
+.wave .curve{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    
+}
+
